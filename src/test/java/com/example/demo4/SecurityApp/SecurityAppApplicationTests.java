@@ -1,4 +1,4 @@
-package com.example.demo4.SecurityApp;
+package com.example.spring.SecurityApp;
 
 import com.example.spring.SecurityApp.entities.User;
 import com.example.spring.SecurityApp.services.JwtService;
