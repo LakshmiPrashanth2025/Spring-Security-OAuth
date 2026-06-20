@@ -25,3 +25,18 @@ While most of the inheritance is fine, it also inherits unwanted elements like `
 To prevent this, the project POM contains empty overrides for these elements.
 If you manually switch to a different parent and actually want the inheritance, you need to remove those overrides.
 
+### OAuth
+Access Token (AT) What it is: A short-lived credential (typically valid for a few minutes to an hour) that acts as a secure "digital key".
+Refresh Token (RT)What it is: A long-lived credential (valid for days, weeks, or even indefinitely) issued alongside an access token.
+
+###How They Work Together
+### Initial Login: 
+The user logs in and grants the app access. 
+The Authorization Server returns an AT and an RT.
+
+### Making Requests: 
+The app uses the AT to fetch data (e.g., retrieving photos or reading emails).
+
+### Expiration: 
+Once the short-lived AT expires, the API returns an "Unauthorized" (401) error.
+
