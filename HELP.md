@@ -26,8 +26,9 @@ To prevent this, the project POM contains empty overrides for these elements.
 If you manually switch to a different parent and actually want the inheritance, you need to remove those overrides.
 
 ### OAuth
-Access Token (AT) What it is: A short-lived credential (typically valid for a few minutes to an hour) that acts as a secure "digital key".
-Refresh Token (RT)What it is: A long-lived credential (valid for days, weeks, or even indefinitely) issued alongside an access token.
+Access Token (AT) : A short-lived credential (typically valid for a few minutes to an hour) that acts as a secure "digital key".
+
+Refresh Token (RT) : A long-lived credential (valid for days, weeks, or even indefinitely) issued alongside an access token.
 
 ###How They Work Together
 ### Initial Login: 
